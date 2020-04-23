@@ -26,9 +26,9 @@ class Database {
         // Cleanup code for the object goes 
         // in this method
     }
-    vector<string> list;
+    vector<vector<string>> mainList;
     string name;
 
-    void write(vector<string> list);
-    void read();
+    void write(vector<vector<string>> list);
+    vector<vector<string>> read();
 };
